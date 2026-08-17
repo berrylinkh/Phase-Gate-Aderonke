@@ -1,0 +1,9 @@
+
+
+python3 -m unittest "test file name ".py
+
+
+
+
+from unittest import TestCase
+from "file name of the code" import "function name"

@@ -1,0 +1,10 @@
+1. javac -cp "junit-platform-console-standalone-1.11.0.jar:out" -d out TestFile.java CodeFile.java
+
+
+2. java -cp "junit-platform-console-standalone-1.11.0.jar:out" org.junit.platform.console.ConsoleLauncher --scan-class-path
+
+
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
