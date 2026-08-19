@@ -8,7 +8,7 @@ public class FatherCurrentAge {
     }
 
     public static void gettingTheFathersAge (int currentFatherAge, int currentSonAge) {
-    int ageResult =  (currentFatherAge - (currentSonAge *2) )* - 1;
+    int ageResult =  (currentFatherAge - (currentSonAge *2) );
 
         if (currentFatherAge  == ageResult ) {
         System.out.println("father age will be twice the son in:  "+ageResult );
