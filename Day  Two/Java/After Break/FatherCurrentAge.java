@@ -1,23 +1,23 @@
 
 
-public class FatherCurrentAge {
-    public static void main (String [] args) {
 
-    gettingTheFathersAge (56, 30);
+
+let fatherAge = 56;
+let sonAge= 30;
     
-    }
 
-    public static void gettingTheFathersAge (int currentFatherAge, int currentSonAge) {
-    int ageResult =  (currentFatherAge - (currentSonAge *2) );
+function gettingTheFathersAge (fatherAge,sonAge) {
 
-        if (currentFatherAge  == ageResult ) {
-        System.out.println("father age will be twice the son in:  "+ageResult );
+    calculatingTheFathersAge = FatherAge - (currentSonAge *2) ;
+    
+   if (sonAge * 2 == fatherAge) {
+        console.log ("father is twice the son age");
         }
 
         else { 
-        System.out.println("father age is equal to the son : " +ageResult);
+        console.log ("father will be twice the son age in : " +ageResult);
     }
-    }
+    
 }
 
 

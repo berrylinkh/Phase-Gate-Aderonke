@@ -1,17 +1,14 @@
 
 
 
-public class ReverseString{
+ public class ReverseString {
     public static void main (String [] args) {
     
-    String[] name = {"Aderonke","john", "lola"};
-    String [] reverse = new String [name.length];
-    
+    String name = "Aderonke";
 
-    for(int count = name.length; count >= 0 ; count --) {
-        reverse = name[count];
-        System.out.print (reverse[count]); 
-        }
+    for (int count = name.length() - 1; count >= 0; count --) {
+    char letter = name.charAt(count);
+    System.out.print (letter);
+    }
     }
 }
-
