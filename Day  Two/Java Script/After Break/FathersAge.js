@@ -8,19 +8,17 @@ let sonAge= 30;
 
 function gettingTheFathersAge (fatherAge,sonAge) {
 
-    calculatingTheFathersAge = FatherAge - (currentSonAge *2) ;
+   let calculatingTheFathersAge = fatherAge - (sonAge *2) ;
     
-   if (sonAge * 2 == fatherAge) {
+   if (sonAge * 2 === fatherAge) {
         console.log ("father is twice the son age");
         }
 
         else { 
-        console.log ("father will be twice the son age in : " +ageResult);
+        console.log ("father will be twice the son age in :  ", +calculatingTheFathersAge );
     }
     
 }
 
 
-
-
-
+gettingTheFathersAge (fatherAge,sonAge);
