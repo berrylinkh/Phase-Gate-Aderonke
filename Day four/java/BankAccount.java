@@ -3,6 +3,7 @@ import java.util.Scanner;
     public class BankAccount {
         public static void main (String [] args) {
         Scanner inputCollector = new Scanner (System.in);
+         
         String transactionMenu = """
             1. Deposit
             2. Withdrawal
@@ -16,7 +17,7 @@ import java.util.Scanner;
 
         System.out.print("Select transaction option: ");
         int transactionMeunOPtion = inputCollector.nextInt();
-        
+
 
         switch (transactionMeunOPtion) {
 
@@ -48,8 +49,8 @@ import java.util.Scanner;
 
 
             default :System.out.println("invalid input"); break;
-            
-     } 
+       }     
+      
      
     }
         public static double gettingTransactionDeposit (double amount) {
